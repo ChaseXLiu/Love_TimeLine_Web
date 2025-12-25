@@ -46,7 +46,7 @@ export const TIMELINE_DATA: TimelineEvent[] = [
     date: "2023-05-20",
     title: "第一次约会",
     location: "青岛",
-    description: "傍晚大雾下的海边，我们以捉迷藏的方式第一次相遇，回到学校附近我们吃了人生中彼此在身边的第一顿漂亮饭",
+    description: "傍晚大雾下的海边，我们以捉迷藏的方式第一次相遇，回到学校附近我们吃了人生中彼此在身边的第一顿漂亮饭。",
     coverImage: "https://love-line-time-imgs-1327568143.cos.ap-nanjing.myqcloud.com/love-time-line-imgs/02_%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BA%A6%E4%BC%9A/img0.jpg",
     gallery: [
       "https://love-line-time-imgs-1327568143.cos.ap-nanjing.myqcloud.com/love-time-line-imgs/02_%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BA%A6%E4%BC%9A/img1.jpg",
@@ -280,7 +280,7 @@ export const TIMELINE_DATA: TimelineEvent[] = [
     date: "2024-10-04",
     title: "国庆爬千佛山",
     location: "济南",
-    description: "又是一年国庆节啦，这次和小宝在千佛山背诗白嫖门票，第二次登顶千佛山。还去了济南的珍珠泉，珍珠漾为池，曲折成溪路……。",
+    description: "又是一年国庆节啦，这次和小宝在千佛山背诗白嫖门票，第二次登顶千佛山。还去了济南的珍珠泉，珍珠漾为池，曲折成溪路……",
     coverImage: "https://love-line-time-imgs-1327568143.cos.ap-nanjing.myqcloud.com/love-time-line-imgs/14_%E5%9B%BD%E5%BA%86%E7%88%AC%E5%8D%83%E4%BD%9B%E5%B1%B1/img0.jpg",
     gallery: [
       "https://love-line-time-imgs-1327568143.cos.ap-nanjing.myqcloud.com/love-time-line-imgs/14_%E5%9B%BD%E5%BA%86%E7%88%AC%E5%8D%83%E4%BD%9B%E5%B1%B1/img1.jpg",
@@ -299,7 +299,7 @@ export const TIMELINE_DATA: TimelineEvent[] = [
     date: "2025-02-20",
     title: "在欧乐堡过生日",
     location: "齐河",
-    description: "又到小宝一年一度的生日了，今天在欧乐堡玩了一天，幸福满满！可惜最后没有坐上小火车~第二天在手账集市买买买，收获颇丰！。",
+    description: "又到小宝一年一度的生日了，今天在欧乐堡玩了一天，幸福满满！可惜最后没有坐上小火车~第二天在手账集市买买买，收获颇丰！",
     coverImage: "https://love-line-time-imgs-1327568143.cos.ap-nanjing.myqcloud.com/love-time-line-imgs/15_%E5%9C%A8%E6%AC%A7%E4%B9%90%E5%A0%A1%E8%BF%87%E7%94%9F%E6%97%A5/img0.jpg",
     gallery: [
       "https://love-line-time-imgs-1327568143.cos.ap-nanjing.myqcloud.com/love-time-line-imgs/15_%E5%9C%A8%E6%AC%A7%E4%B9%90%E5%A0%A1%E8%BF%87%E7%94%9F%E6%97%A5/img1.jpg",
