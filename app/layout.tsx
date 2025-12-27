@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Our Love Story | Time Together",
-  description: "A timeline of our precious memories.",
+  title: "爱情时间线",
+  description: "一次次约会就是一个个时间点，共同组成回忆的时间线.",
 };
 
 export default function RootLayout({
