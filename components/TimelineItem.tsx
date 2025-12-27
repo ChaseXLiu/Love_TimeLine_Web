@@ -10,13 +10,13 @@ interface TimelineItemProps {
   index: number;
 }
 
-export default function TimelineItem({ item, onClick, index }: TimelineItemProps) {
+export default function TimelineItem({ item, onClick }: TimelineItemProps) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 50 }}
+      initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.6, delay: index * 0.1 }}
+      viewport={{ once: true, margin: "-50px" }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
       className="flex flex-col md:flex-row gap-6 items-start cursor-pointer group relative z-10"
       onClick={() => onClick(item)}
     >
@@ -33,6 +33,7 @@ export default function TimelineItem({ item, onClick, index }: TimelineItemProps
                  src={item.coverImage}
                  alt={item.title}
                  fill
+                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                  className="object-cover group-hover:scale-105 transition-transform duration-500"
                />
             </motion.div>
